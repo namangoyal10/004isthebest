@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "336393535782",
+    "firebase_url": "https://nitktoastmasters-da7c7.firebaseio.com",
+    "project_id": "nitktoastmasters-da7c7",
+    "storage_bucket": "nitktoastmasters-da7c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336393535782:android:7cea02e7de70ac6f",
+        "android_client_info": {
+          "package_name": "nitk.adikarbharath.nitktoastmasters"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336393535782-a81qcj2or6moa1m6l5lvs3tqt4vf6b32.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "nitk.adikarbharath.nitktoastmasters",
+            "certificate_hash": "9ddd6fe596584b715abf71e2d4723af795bf7fd4"
+          }
+        },
+        {
+          "client_id": "336393535782-61vf75pavuel1ch2k6le5vapcssqvn0g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJVdWuuy_s62DBkg6ejuSZxPRShPH2Sx8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336393535782-61vf75pavuel1ch2k6le5vapcssqvn0g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

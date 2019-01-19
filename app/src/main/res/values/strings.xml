@@ -1,0 +1,124 @@
+<resources>
+
+    <string name="app_name">NITK Toastmasters</string>
+    <string name="beta_app">Beta App</string>
+
+    <!--Navigation Bar-->
+    <string name="nav_header_name">NITK Toastmasters</string>
+    <string name="nav_header_email">Options:</string>
+    <string name="more_options">More Options</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--Navigation Bar Entries-->
+    <string name="voting">Voting</string>
+    <string name="contact">Contact</string>
+    <string name="next_meeting">Next Meeting Details</string>
+    <string name="take_up_role">Take Up A Role</string>
+    <string name="timer">TM Timer</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+
+
+    <!--Voting-->
+    <string name="beta">This Application is in Beta! Any issues (battery heating up, memory usage, unexpected crashes)
+    can be reported to me.</string>
+    <string name="vote_info_1">Best Speaker:</string>
+    <string name="vote_1">Vote 1</string>
+    <string name="vote_info_2">Best Table Topic Speaker:</string>
+    <string name="vote_2">Vote 2</string>
+    <string name="vote_info_3">Best Evaluator:</string>
+    <string name="vote_3">Vote 3</string>
+
+
+    <!--Take Up A Role-->
+    <string-array name="roles_array">
+        <item>Select a role&#8230;</item>
+        <item>TMOD</item>
+        <item>Grammarian</item>
+        <item>General Evaluator</item>
+        <item>Table Topic Master</item>
+        <item>Timer</item>
+        <item>Ah Counter</item>
+        <item>Speaker 1</item>
+        <item>Evaluator 1</item>
+        <item>Speaker 2</item>
+        <item>Evaluator 2</item>
+        <item>Speaker 3</item>
+        <item>Evaluator 3</item>
+    </string-array>
+    <string name="theme_project">Theme/Project</string>
+    <string name="role_alert">It is highly recommended that you go through the upcoming meeting list
+        before you take up a role. Depending on the role, you may have to fill in an additional
+        field (TMOD-Theme, Speaker-Project).</string>
+    <string name="submit">Submit</string>
+    <string name="not_logged_in">Only NITK Toastmasters members can view this form.
+        If you are a member, please login from the Settings page.</string>
+
+
+    <!--Timer-->
+    <string name="timer_info">Use the drop-down box below to select a preset from the available
+        options. The background colour will change according to the timer flag that is to be raised.</string>
+    <string name="timer_log">Tap Log to store the name as well as his/her time taken.
+        Tap Display to display a pop-up of the Timer report (Non-functional at the moment).</string>
+    <string-array name="timer_array">
+        <item>Speech: 4&#8211;6 Minutes</item>
+        <item>Speech: 5&#8211;7 Minutes</item>
+        <item>Table Topics: 1&#8211;2 Minutes</item>
+        <item>Evaluation: 2&#8211;3 Minutes</item>
+        <item>Custom&#8230;</item>
+    </string-array>
+
+    <!--Settings-->
+    <string name="title_activity_login">Sign in</string>
+    <string name="set_name">Enter your name here for future use like voting and taking up
+        roles.</string>
+    <string name="your_name">Your name</string>
+    <string name="set_your_name">Set your name</string>
+    <string name="settings_auth_info">If you\'re an NITK Toastmasters member and you haven\'t logged
+        in yet, do so here.</string>
+    <string name="settings_auth_log_in">Log In</string>
+    <string name="settings_auth_log_out">Log Out</string>
+    <string name="settings_auth_forgot_password">Forgot/Change Password</string>
+    <string name="settings_auth_info_3">If you\'re an NITK Toastmasters member, please use this
+        button to log in or out.</string>
+    <string name="settings_auth_info_2">If you\'re an NITK Toastmasters member and you want to
+        change your password (or have forgotten it), use this button.</string>
+
+    <!--Contact-->
+    <string name="contact_president">President:</string>
+    <string name="contact_president_name">Agnes Sharan</string>
+    <string name="contact_president_contact">+91 96113 44476</string>
+    <string name="contact_vp_edu">Vice-President Education:</string>
+    <string name="contact_vp_edu_name">Tirth Savla</string>
+    <string name="contact_vp_edu_contact">+91 99208 04880</string>
+    <!--Above fields should be dynamic in future.-->
+    <string name="contact_club_handles">More Links:</string>
+    <string name="contact_club_handles_fb">www.facebook.com/NITKToastmasters</string>
+    <string name="contact_club_handles_ig">www.instagram.com/nitk_toastmasters</string>
+    <string name="contact_club_handles_web">https://www.toastmasters.org/Find-a-Club/06110289-nitk-toastmasters-club</string>
+
+    <!--About-->
+    <string name="about_dev">Developed by:</string>
+    <string name="about_name">Bharath Adikar</string>
+    <string name="about_branch">B.Tech IT, IVth Sem, NITK</string>
+    <string name="version">Default text</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!--Miscellaneous-->
+    <string name="textview">TextView</string>
+    <string name="todo">todo</string>
+
+</resources>
