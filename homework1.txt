@@ -1,0 +1,14 @@
+ubuntu 18
+text editor-visuall studio
+
+
+CLIENT=REQUESTS
+SERVER=RESPONSE
+COLLECTION OF INTERFACES WHICH DOES NOT INTERACT WITH USER DIRECTLY 
+
+		FRONTEND-----[ SERVER ---------->DATABASE ]
+					BACKEND
+
+homework:facebook boxes 
+analyse two website and compare the two (good ones of same types )
+

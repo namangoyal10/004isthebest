@@ -1,0 +1,120 @@
+ 01244210
+
+jisme end tag hai usme beech mein we can write our code. i.e   every tag having closing tab is signifiant 
+IN TOTAL 5 TAGS
+IF TITLE IS REMOVED JIS NAAM SE FULE SAVE HUI HAI WO HI TITLE AA JAYEGA 
+================================================================
+
+1. HTML - TYPE OF HTML 5 WE ARE USING 
+2.  HEAD=THINKING/LINKING PART WHERE U CANT SEE ANYTHING IN BODY NOT VISIBLE IN PAGE= HEAD	ONLY TITLE IS EXCEPTION
+3 . AGAR HEAD MEIN KUCH "HELLO WORD" LIKHTE HAI WHICH IS NOT MEANT FOR HEAD IT WILL AUTOMATICALLY PUSH IT TO BODY
+4. AGAR HEAD REMOVE KAR DU TAB BHI RUN KARDUNGA AUR INSPECT KARNE PAR AUTOMATICALLY DAAL DEGA
+5 . SAME CASE AS 4 WITH BODY
+6. SAME WITH HTML 
+
+================================================================
+4 5 6 TRIES TO SAY HTML AUTOMATICALLY SAVES THE STRUCTURES
+
+WHY DO WE NEED BODY HTML= TIME TO LOAD AND RUN AND STRUCTURE IT  HIGHLT NOT RECOMENDED.
+
+HEAD IS NOT DEFAULT IN EDITOR OF INSPECT OF CHROME
+
+================================================================
+CNTRL+/ FOR // OR <!-- -->
+
+================================================================
+1.we have 6 heading tags in priority . when we inspect them we have them seperated inside our boxes.
+margin utna hi rahega size of text inc or dec 
+
+================================================================
+2. creating lists
+
+unordered list <ul> unordered list with bullet points
+ordered list <ul> unordered list with numbered points
+
+<li>  to list out list items
+
+================================================================
+3. <!-- <a> ye eala redirect to different page -- this is called anchor tab
+network mein request dal jayegi anchor tab use karke
+
+<a href='http://codingblocks.com'> take me to google </a>   
+================================================================
+
+4.  img tag is not sementic which helps to insert images in the code with a url
+doesnt tell anything just tells where thge image is actually
+
+                <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Chess_board_opening_staunton.jpg/1280px-Chess_board_opening_staunton.jpg'
+                    alt='chessboard'>   
+================================================================
+5. for bold	<strong>		}		cementic tag = they contain menaing in their use, convey meaning
+for italics	<em>  //=emphasis	}		 for ex = for blind people we have the editor which can convert only cementic tags
+
+so dont use <b> and <i>
+abhi tak sirf b and i are non cementic
+
+chromevox = editor convertor
+
+================================================================
+6.header and footer donot justify positioning matlab agar header neeche code kar diya to wo cheez upar nahi chali jayegi xD
+sirf ye batata  hai ki search engine pehle kya search kare
+
+================================================================
+7. <main>
+main content on the page
+can exclude footer
+
+================================================================
+
+8.	paragraph== <p>  </p> 
+
+COMBINATION OF PARAGRAPHS= ARTICLE
+if i add any styling to an article wo ahr paragraph mein add kardega warna one by one
+	which acts like parent and adds to every style taht is children
+same property
+================================================================
+9.  div= for making boxes rowwise --			} non cementic
+span= for making boxes columnwisewise |||		}
+
+div---> section
+
+section ke andar kitni bhi division karle  that is nesting same as div ke andar div
+every sectuon can have a header== decription
+================================================================
+zyada cementic bhi ach nhi lagta complex at runtime  . isliye combination banaya kar
+
+================================================================
+for navigation body shuru hote hi header de aur <nav> de
+================================================================
+kuch bhi kar h1 dena bahoot zarurui hai kyuki search engine usse hi dhundhega priorit mein pehle
+
+
+================================================================
+
+mdn is a website jaha se padenge 
+================================================================
+
+10. aside sirf eke structure hai
+wo  wala kaam karega jab hacker blocks kholenge tab left wali side still rehti hai usse aside kehye hai 
+home dailyy code byte wali side 
+
+aur right wali mein scroll kar sakte hai
+
+================================================================
+11. imp tags:-
+< search about toggle property >
+strong
+time 
+
+
+summary = 
+	<details>
+		<summary>
+			aur bhai kya hal chal
+		</summary>
+	ssup mein badiya tu bata
+ <details>
+
+AGAR SUMMARY NAHI LIKHENGE TO DEFAULTLY DETAILS HI DIKHAYEGA AS DEFAULT
+
+NESTING IS ALLOWED . SO CREATE A NAVIGATION BAR
