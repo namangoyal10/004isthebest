@@ -1,0 +1,101 @@
+1.
+Input: Smartprix site india comparison best-Replacement array
+{0} is {4} online {3} shopping {1} in {2}-positional argument array
+Output
+Smartprix is best online comparison shopping site in India
+----------------------------------------------------------------------
+--------------------------------------------------------------------
+2.
+Given a program compile it and print its output to STDOUT.
+
+The given language has 8 types of statements:
+
+    ECHO 1 => prints the given number to STDOUT. Eg: ECHO 1 prints 1 to STDOUT
+    EXIT => exits the program
+    SET a 0 => assign variable a value 0, i.e. equivalent to a = 0
+    ADD 1 2 b => add 1(first) and 2(second) and assign its value to b(third), equivalent to b = 1 + 2. Value 3 will be assigned to variable b
+    GOTO and LABEL
+
+LABEL 12
+<statement>
+<statement>
+<statement>
+GOTO 12
+
+The GOTO statement jumps to corresponding LABEL (defined by argument). The LABEL can occur either before or after GOTO statement.
+
+    IF and END
+
+IF a 10
+<statement>
+<statement>
+<statement>
+END
+
+If a(first argument) is equal to 10(second argument) then only statements between IF and END will be executed otherwise they will bot be executed.
+
+    CONTINUE
+
+IF a 10
+<statement>
+<statement>
+CONTINUE
+<statement>
+END
+
+CONTINUE is used inside IF END block. CONTINUE jumps to the corresponding IF statement of the block.
+Note:
+
+    All arguments are whole numbers only.
+    Variables names can only consist alphabetic[a-z] characters.
+    All variables are intially 0. You don't need to SET a variable before using it.
+
+Example 1
+Input
+
+SET a 0
+LABEL 100
+ADD a 1 a
+ECHO a
+IF a 5
+EXIT
+END
+GOTO 100
+
+Output
+
+1
+2
+3
+4
+5
+
+Example 2
+Input
+
+SET a 1
+SET b 2
+SET goal 5
+SET flag 0
+
+IF flag 0
+ADD a b c
+
+IF a goal
+ADD a a a
+SET flag 1
+END
+
+ECHO a
+SET a b
+SET b c
+
+CONTINUE
+END
+
+Output
+
+1
+2
+3
+10  
